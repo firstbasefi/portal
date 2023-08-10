@@ -1,0 +1,33 @@
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.container {
+  max-height: 611px;
+  max-width: 582px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  margin-top: 200px;
+  overflow: hidden;
+}
+
+.html-embed {
+  border-radius: 20px;
+}
+
+
